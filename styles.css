@@ -67,6 +67,7 @@ a {
   text-decoration: none;
   padding: 1rem 0.5rem;
   color: #fbcb0a;
+  transition: all ease 0.3s;
 }
 
 a:hover {
