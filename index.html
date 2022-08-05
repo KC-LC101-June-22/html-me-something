@@ -2,14 +2,11 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <body>
     <header>
       <h1>My Classic Gaming Era</h1>
       <div class="console-list">
-        <ul>
+        <ul id="consoles">
           <li><a href="#sega">Sega Genesis</a></li>
           <li><a href="#super-nintendo">Super Nintendo</a></li>
           <li><a href="#ps1">Playstation 1</a></li>
@@ -19,11 +16,11 @@
         </ul>
       </div>
     </header>
-    <div class="console-container">
-      <section>
+    <main class="console-container">
+      <article>
         <h2 id="sega">Sega Genesis</h2>
         <h4>Initial Release: 1988</h4>
-        <img src="assets/sega-genisis.png" alt="sega_genesis" />
+        <img id="consoleImage" src="assets/sega-genisis.png" alt="sega_genesis" />
         <span class="favs">Favorite Games</span>
         <ul id="game-list">
           <li>
@@ -47,7 +44,7 @@
             <span>The Lion King</span>
           </li>
         </ul>
-        <p>
+        <p class="console-summary">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
           accusamus recusandae vitae illo, alias saepe laudantium beatae quaerat
           a unde adipisci accusantium qui. Ad est dicta rerum temporibus natus
@@ -55,11 +52,11 @@
           Enim, repellendus tempora. Unde at eius quasi quis earum id inventore
           quibusdam.
         </p>
-      </section>
-      <section class="console-detail">
+      </article>
+      <article class="console-detail">
         <h2 id="super-nintendo">Super Nintendo</h2>
         <h4>Initial Release: 1990</h4>
-        <img src="assets/super-nintendo.png" alt="super_nintendo" /><br />
+        <img id="consoleImage" src="assets/super-nintendo.png" alt="super_nintendo" /><br />
         <span class="favs">Favorite Games</span>
         <ul id="game-list">
           <li>
@@ -83,7 +80,7 @@
             <span>Mega Man X</span>
           </li>
         </ul>
-        <p>
+        <p class="console-summary">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
           quisquam unde eveniet laborum ullam similique odit, molestias dolore,
           beatae necessitatibus voluptas at exercitationem repellat? Debitis
@@ -91,11 +88,11 @@
           consequatur magnam quia nisi eum saepe, cum illum? Officiis minima
           quas in, hic tempore suscipit harum tenetur consequuntur.
         </p>
-      </section>
-      <section>
+      </article>
+      <article>
         <h2 id="ps1">Playstation 1</h2>
         <h4>Initial Release: 1994</h4>
-        <img src="assets/ps1-min.png" alt="playstation_one" />
+        <img id="consoleImage" src="assets/ps1-min.png" alt="playstation_one" />
         <span class="favs">Favorite Games</span>
         <ul id="game-list">
           <li>
@@ -123,7 +120,7 @@
             <span>Spyro the Dragon</span>
           </li>
         </ul>
-        <p>
+        <p class="console-summary">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
           accusamus recusandae vitae illo, alias saepe laudantium beatae quaerat
           a unde adipisci accusantium qui. Ad est dicta rerum temporibus natus
@@ -131,11 +128,11 @@
           Enim, repellendus tempora. Unde at eius quasi quis earum id inventore
           quibusdam.
         </p>
-      </section>
-      <section>
+      </article>
+      <article>
         <h2 id="n64">Nintendo 64</h2>
         <h4>Initial Release: 1996</h4>
-        <img src="assets/n64.png" alt="nintendo 64" />
+        <img id="consoleImage" src="assets/n64.png" alt="nintendo 64" />
         <span class="favs">Favorite Games</span>
         <ul id="game-list">
           <li>
@@ -163,7 +160,7 @@
             <span>WWF WrestleMania 2000</span>
           </li>
         </ul>
-        <p>
+        <p class="console-summary">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
           accusamus recusandae vitae illo, alias saepe laudantium beatae quaerat
           a unde adipisci accusantium qui. Ad est dicta rerum temporibus natus
@@ -171,11 +168,11 @@
           Enim, repellendus tempora. Unde at eius quasi quis earum id inventore
           quibusdam.
         </p>
-      </section>
-      <section>
+      </article>
+      <article>
         <h2 id="ps2">Playstation 2</h2>
         <h4>Initial Release: 2000</h4>
-        <img src="assets/ps2.png" alt="playstation_two" />
+        <img id="consoleImage" src="assets/ps2.png" alt="playstation_two" />
         <span class="favs">Favorite Games</span>
         <ul id="game-list">
           <li>
@@ -203,7 +200,7 @@
             <span>Kingdom Hearts</span>
           </li>
         </ul>
-        <p>
+        <p class="console-summary">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
           accusamus recusandae vitae illo, alias saepe laudantium beatae quaerat
           a unde adipisci accusantium qui. Ad est dicta rerum temporibus natus
@@ -211,11 +208,11 @@
           Enim, repellendus tempora. Unde at eius quasi quis earum id inventore
           quibusdam.
         </p>
-      </section>
-      <section>
+      </article>
+      <article>
         <h2 id="xbox">Xbox</h2>
         <h4>Initial Release: 2001</h4>
-        <img src="assets/xbox.png" alt="xbox" />
+        <img id="consoleImage" src="assets/xbox.png" alt="xbox" />
         <span class="favs">Favorite Games</span>
         <ul id="game-list">
           <li>
@@ -243,7 +240,7 @@
             <span>Mech Assault</span>
           </li>
         </ul>
-        <p>
+        <p class="console-summary">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
           accusamus recusandae vitae illo, alias saepe laudantium beatae quaerat
           a unde adipisci accusantium qui. Ad est dicta rerum temporibus natus
@@ -251,7 +248,11 @@
           Enim, repellendus tempora. Unde at eius quasi quis earum id inventore
           quibusdam.
         </p>
-      </section>
-    </div>
+      </article>
+    </main>
+    <footer>
+      <h6 id="mainHeading">&copy; Chance Schafer</h6>
+      <p id="testP" class="funParagraph">This is my test, fun paragraph to meet requirements</p>
+    </footer>
   </body>
 </html>
